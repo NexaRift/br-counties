@@ -1,0 +1,47 @@
+site_name: br-counties
+site_description: Enciclopédia de Inteligência Territorial e Condados Funcionais do Brasil
+site_author: Vitor Simões
+site_url: https://NexaRift.github.io/br-counties/
+
+repo_name: br-counties
+repo_url: https://github.com/NexaRift/br-counties
+
+theme:
+  name: material
+  language: pt
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+    - scheme: slate
+      primary: teal
+      accent: teal
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+extra:
+  generator: false
+
+copyright: Copyright &copy; 2025 Vitor Simões — br-counties
+
+markdown_extensions:
+  - tables                     # Suporte a tabelas Markdown avançadas
+  - attr_list
+  - md_in_html
+
+nav:
+  - Início: index.md
+  - Visão Geral do Brasil: overview.md
+  - Estados:
+      - Paraná:
+          - Visão Geral (PR): brazil/pr/index.md
+          - Região de Curitiba:
+              - Condado de Curitiba: brazil/pr/curitiba.md
