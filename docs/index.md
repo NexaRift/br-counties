@@ -28,7 +28,7 @@ Nas páginas de cada estado e condado, os seguintes indicadores são apresentado
 | **População** | Contagem populacional total obtida a partir do Censo Demográfico e estimativas oficiais do IBGE. |
 | **Área (km²)** | Extensão territorial oficial da unidade em quilômetros quadrados. |
 | **Densidade (hab/km²)** | Razão direta entre a população total e a área territorial (População ÷ Área). |
-| **IDHM** | Índice de Desenvolvimento Humano Municipal do PNUD/IPEA. Para o valor consolidado do Condado, é utilizada a **média ponderada pela população**. |
+| **IDHM** | Índice de Desenvolvimento Humano Municipal do PNUD/IPEA. Para o valor consolidado do Condado, é utilizada a média ponderada pela população. |
 
 ---
 
