@@ -25,23 +25,33 @@ RGInts group multiple RGIs around higher-order urban centers (metropolises or re
 
 ## Repository Structure
 
-The project maintains a strict separation between raw, machine-readable datasets and human-readable documentation:
-
 ```text
 br-counties/
-├── data/                      # Standardized CSV datasets by state
-│   ├── PR_counties.csv
+├── data/                        # Standardized CSV datasets by state
+│   ├── PR_Counties.csv
 │   └── ...
-├── docs/                      # Wiki supporting files and assets
-├── LICENSE                    # Permissive open-source license
-└── README.md                  # Project overview and specifications
+├── docs/                        # MkDocs source files
+│   ├── index.md                 # Project home page
+│   ├── overview.md              # National territorial overview
+│   └── brazil/                  # State-level documentation
+│       ├── pr/                  # Paraná state
+│       │   ├── index.md         # State overview and county index
+│       │   ├── curitiba.md      # Curitiba county profile
+│       │   └── ...
+│       └── .../
+├── .github/
+│   └── workflows/
+│       └── deploy.yml           # Automated GitHub Pages deployment
+├── mkdocs.yml                   # MkDocs configuration
+├── LICENSE
+└── README.md
 ```
 
 ---
 
 ## Dataset Schema
 
-The primary datasets are distributed in UTF-8 encoded .csv format under the data/ directory. Each record corresponds to a municipality and its respective regional hierarchy, along with key physical and social metrics:
+The primary datasets are distributed in UTF-8 encoded `.csv` format under the `data/` directory. Each record corresponds to a municipality and its respective regional hierarchy, along with key physical and social metrics:
 
 | Column Name | Data Type | Description |
 | :--- | :--- | :--- |
@@ -56,12 +66,11 @@ The primary datasets are distributed in UTF-8 encoded .csv format under the data
 
 ---
 
-## Documentation & Wiki
+## Documentation
 
-While this repository hosts raw data files and structural metadata in English, the comprehensive regional encyclopedia—containing detailed county profiles, aggregated indicators, and regional synthesis—is maintained in Portuguese on the project's **GitHub Wiki**.
+The comprehensive regional encyclopedia — containing detailed county profiles, aggregated indicators, and regional synthesis — is maintained in Portuguese on the project's website:
 
-* Access the br-counties Wiki: 
-* Paraná State Overview (PR): 
+* [BR-Counties Documentation](https://NexaRift.github.io/br-counties/)
 
 ---
 
