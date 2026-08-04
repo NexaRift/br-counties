@@ -4,7 +4,9 @@
 
 # Estado do Paraná (PR)
 
-Esta página apresenta a síntese territorial e o agrupamento dos 399 municípios paranaenses em **29 Condados Funcionais**, consolidados a partir das 6 Regiões Geográficas Intermediárias e Regiões Geográficas Imediatas estabelecidas pelo IBGE.
+O Estado do Paraná está dividido em 29 condados, correspondentes às **Regiões Geográficas Imediatas** definidas pelo IBGE. Esses condados estão agrupados em 6 **Regiões Geográficas Intermediárias**, formando uma organização territorial que facilita a navegação, a consulta e a consolidação de informações estatísticas sobre os municípios do estado.
+
+Esta página apresenta um panorama geral do estado e a relação de seus respectivos condados.
 
 ---
 
@@ -25,8 +27,8 @@ Esta página apresenta a síntese territorial e o agrupamento dos 399 município
 ### 1. Região Intermediária de Curitiba
 
 * [Condado de Curitiba](curitiba.md)
-* Condado de Paranaguá — *Em breve*
-* Condado de União da Vitória — *Em breve*
+* [Condado de Paranaguá](paranagua.md)
+* [Condado de União da Vitória](uniao_da_vitoria.md)
 
 ### 2. Região Intermediária de Cascavel
 
@@ -66,11 +68,11 @@ Esta página apresenta a síntese territorial e o agrupamento dos 399 município
 
 ### 6. Região Intermediária de Guarapuava
 
-* Condado de Guarapuava — *Em breve*
-* Condado de Pitanga — *Em breve*
+* [Condado de Guarapuava](guarapuava.md)
+* [Condado de Pitanga](pitanga.md)
 
 ---
 
 ## Acesso aos Dados Brutos do Paraná
 
-* [Download PR_Counties.csv](https://raw.githubusercontent.com/NexaRift/br-counties/main/data/PR_Counties.csv)
+* [Download pr_counties.csv](https://raw.githubusercontent.com/NexaRift/br-counties/main/data/pr_counties.csv)

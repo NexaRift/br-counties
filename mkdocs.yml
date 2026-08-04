@@ -45,3 +45,8 @@ nav:
           - Visão Geral (PR): brazil/pr/index.md
           - Região de Curitiba:
               - Condado de Curitiba: brazil/pr/curitiba.md
+              - Condado de Paranaguá: brazil/pr/paranagua.md
+              - Condado de União da Vitória: brazil/pr/uniao_da_vitoria.md
+          - Região de Gurapuava:
+              - Condado de Guarapuava: brazil/pr/guarapuava.md
+              - Condado de Pitanga: brazil/pr/pitanga.md
